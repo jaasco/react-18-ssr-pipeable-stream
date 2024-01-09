@@ -2,7 +2,7 @@
 
 rm -rf ./.amplify-hosting
 
-mkdir -p ./.amplify-hosting/compute/default
+mkdir -p ./.amplify-hosting/compute/default/ssr-client/build/static
 
 cp ./Server.js ./.amplify-hosting/compute/default/Server.js
 cp ./Bootstrap.js ./.amplify-hosting/compute/default/Bootstrap.js
